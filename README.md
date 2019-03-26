@@ -131,7 +131,7 @@ $ brew install carthage
 To integrate web3swift into your Xcode project using Carthage, specify it in your `Cartfile`:
 
 ```ogdl
-github "web3swift/web3swift" ~> 1.1.9
+pod 'web3swift', :git => 'https://github.com/SpikeLeeHom/web3swift.git', :branch => 'newWeb3'
 ```
 
 Run `carthage update` to build the framework and drag the built `web3swift.framework` into your Xcode project.
