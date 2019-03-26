@@ -1,10 +1,10 @@
 def import_pods
-  pod 'scrypt', '~> 2.0'
+  pod 'scrypt', '= 2.0'
   pod "PromiseKit", "~> 6.4.1"
   pod 'BigInt', '3.1.0'
-  pod 'CryptoSwift', '0.13.1'
-  pod 'Result', '~> 4.0'
-  pod 'secp256k1_swift', '~> 1.0.3', :modular_headers => true
+  pod 'CryptoSwift', '= 0.13.1'
+  pod 'Result', '= 4.0'
+  pod 'secp256k1_swift', '=  1.0.3', :modular_headers => true
   pod 'SwiftRLP', '~> 1.0.1'
 end
 
